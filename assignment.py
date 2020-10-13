@@ -3,11 +3,11 @@
 import math
 
 
-def tempConversion(deg, unit="fc"):
-    if unit == "cf":
+def tempConversion(deg, unit="F"):
+    if unit == "C":
         ans = (deg * (9/5) + 32)
     
-    elif unit == "fc":
+    elif unit == "F":
         ans = ((deg - 32) * (5/9))
         
     ans = round(ans,1)
