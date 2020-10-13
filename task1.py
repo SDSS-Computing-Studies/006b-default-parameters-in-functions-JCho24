@@ -2,5 +2,4 @@
 
 import assignment
 
-x = assignment.tempConversion(1, unit = "cf")
-print(x)
+print( assignment.tempConversion(10, unit="F") )
