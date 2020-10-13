@@ -1,5 +1,5 @@
 #! python3
-
+"""
 import assignment
 
 def test1():
@@ -8,6 +8,7 @@ def test1():
 def test2():
   assert "needle" in assignment.function()
   assert "needle2" in assignment.function(),"error Message"
+"""
 #!python3
 import assignment
 
@@ -31,3 +32,12 @@ def test4():
 def test5():
   answer = assignment.cosineLaw(10,3,50,oppositeSide=False)
   assert round(answer,1) == 11.7 
+
+
+
+
+test1()
+test2()
+test3()
+test4()
+test5()
